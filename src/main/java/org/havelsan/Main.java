@@ -34,7 +34,7 @@ public class Main {
 
     private static SensorData createSensorData() {
         Random random = new Random();
-        SensorData sensorData = new SensorData("sensor-2",
+        SensorData sensorData = new SensorData("sensor-1",
                               new SensorData.Point(random.nextDouble(-1000d,1000d), random.nextDouble(-1000d, 1000d)),
                               random.nextDouble(360d));
 //        SensorData sensorData = new SensorData("sensor-1",
